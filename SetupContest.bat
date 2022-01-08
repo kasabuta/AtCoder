@@ -6,7 +6,7 @@ if not exist %CONTEST_DIR% (
     md %CONTEST_DIR%
 )
 
-set QINDEXIES=A B C D E F
+set QINDEXIES=A B C D E F G Ex
 
 setlocal enabledelayedexpansion
 for %%i in (%QINDEXIES%) do (

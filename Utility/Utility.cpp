@@ -1,9 +1,29 @@
 #pragma once
 #include "Utility.h"
-#include <algorithm>
 #include <cmath>
 
-std::vector<std::string> Split(std::string str, const char* separator) {
+template <typename T>
+std::vector<T> Split(std::string str, const char* del) {
+    std::vector<T> result;
+    return result;
+}
+
+template <>
+std::vector<int> Split(std::string str, const char* del) {
+    return SplitToInt(str, del);
+}
+
+template <>
+std::vector<float> Split(std::string str, const char* del) {
+    return SplitToFloat(str, del);
+}
+
+template <>
+std::vector<long long> Split(std::string str, const char* del) {
+    return SplitToLongLong(str, del);
+}
+
+std::vector<std::string> SplitString(std::string str, const char* separator) {
     size_t pos = 0;
     size_t next = str.find(separator);
 
@@ -122,26 +142,22 @@ int Round(float input) {
     return static_cast<int>(result);
 }
 
-template <typename T>
-std::vector<T> Sort(const std::vector<T> array) {
-    auto sortedArray = array;
-    std::sort(sortedArray.begin(), sortedArray.end());
-    return sortedArray;
+std::vector<int> GetDigits(int num) {
+    auto str = std::to_string(num);
+    std::vector<int> digits;
+    for (auto digit : str) {
+        digits.push_back(std::atoi(&digit));
+    }
+    return digits;
 }
 
-template <typename T>
-std::vector<int> SortIndex(const std::vector<T> array) {
-    auto length = array.size();
-    int indexArray[length];
-    repeat(i, length) {
-        indexArray[i].index = i;
+std::vector<int> GetDigits(long long num) {
+    auto str = std::to_string(num);
+    std::vector<int> digits;
+    for (auto digit : str) {
+        digits.push_back(std::atoi(&digit));
     }
-    std::sort(
-        indexArray.begin(),
-        indexArray.end(),
-        [array](const int& x, const int& y) {return array[x] < array[y]; }
-    );
-    return indexArray;
+    return digits;
 }
 
 std::vector<std::vector<int>> MakeGraph(std::vector<Edge> edges, int size) {

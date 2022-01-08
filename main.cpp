@@ -1,15 +1,17 @@
 #include "Utility/MakeSubmitFile.h"
-#include "Question/b213/Questionb213C.h"
+#include "Question/AtCoderBS/QuestionAtCoderBS11.h"
 
 namespace {
 const bool IS_CHECK = true;
+const bool WITHOUT_CHECK = false;
 }
 
 int main() {
-	Questionb213C::AtCoderQuestion question;
+	QuestionAtCoderBS11::AtCoderQuestion question;
 	if (IS_CHECK) {
-		question.Check();
-		MakeSubmitFile(contestName, questionIndex);
+		if (WITHOUT_CHECK || question.Check()) {
+			MakeSubmitFile(contestName, questionIndex);
+		}
 	} else {
 		question.Answer();
 	}

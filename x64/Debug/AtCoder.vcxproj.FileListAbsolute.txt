@@ -1,1 +1,2 @@
 C:\Users\kasab\source\repos\AtCoder\x64\Debug\AtCoder.exe
+C:\Users\kasab\source\repos\AtCoder\AtCoder\x64\Debug\AtCoder.exe

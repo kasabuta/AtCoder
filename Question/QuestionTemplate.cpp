@@ -36,20 +36,10 @@ const int AtCoderQuestion::GetNumTestCase() const {
 	return SIZEOF(INPUT_CASE);
 }
 
-/* “ü—Íæ“¾ */
-InputStruct AtCoderQuestion::Input() {
-	InputStruct input;
-	m_input.GetInputInt();
-	return input;
-}
-/* ‰ğ“šo—Í */
-void AtCoderQuestion::Output(const OutputStruct& output) {
-	m_output.OutputFormat(outStr, "");
-}
 /* ‰ğ–@ */
-OutputStruct AtCoderQuestion::Solver(const InputStruct& input) {
-	OutputStruct result;
-	return result;
+void AtCoderQuestion::Solver() {
+	m_input.GetInputInt();
+	m_output.OutputFormat("");
 }
 
 }

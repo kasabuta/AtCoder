@@ -8,6 +8,10 @@ void OutputManager::Print() const {
 	std::printf("%s", m_outputLine.c_str());
 }
 
+void OutputManager::Reset() {
+	m_outputLine.clear();
+}
+
 void OutputManager::OutputFormat(const char* format, ...) {
 	va_list args;
 	va_start(args, format);
@@ -17,35 +21,60 @@ void OutputManager::OutputFormat(const char* format, ...) {
 	m_outputLine.append(buf);
 }
 
-void OutputManager::OutputInt(const int num) {
+void OutputManager::OutputNum(const int num) {
 	m_outputLine.append(std::to_string(num));
 	m_outputLine.append("\n");
 }
 
-void OutputManager::OutputFloat(const float num) {
+void OutputManager::OutputNum(const long long num) {
 	m_outputLine.append(std::to_string(num));
 	m_outputLine.append("\n");
 }
 
-void OutputManager::OutputLongLong(const long long num) {
+void OutputManager::OutputNum(const float num) {
 	m_outputLine.append(std::to_string(num));
 	m_outputLine.append("\n");
 }
 
-void OutputManager::OutputNumsInt(const std::vector<int> out) {
+void OutputManager::OutputNum(const double num) {
+	m_outputLine.append(std::to_string(num));
+	m_outputLine.append("\n");
+}
+
+void OutputManager::OutputNums(const std::vector<int>& out) {
 	repeat(i, out.size()) {
-		OutputInt(out[i]);
+		OutputNum(out[i]);
 	}
 }
 
-void OutputManager::OutputNumsFloat(const std::vector<float> out) {
+void OutputManager::OutputNums(const std::vector<long long>& out) {
 	repeat(i, out.size()) {
-		OutputFloat(out[i]);
+		OutputNum(out[i]);
 	}
 }
 
-void OutputManager::OutputNumsLongLong(const std::vector<long long> out) {
+void OutputManager::OutputNums(const std::vector<float>& out) {
 	repeat(i, out.size()) {
-		OutputLongLong(out[i]);
+		OutputNum(out[i]);
 	}
+}
+
+void OutputManager::OutputNums(const std::vector<double>& out) {
+	repeat(i, out.size()) {
+		OutputNum(out[i]);
+	}
+}
+
+void OutputManager::OutputBool(const bool result, BoolOutputType type) {
+	const char* output;
+	switch (type) {
+	case YesNo:
+		output = result ? "Yes" : "No";
+		break;
+	case YESNO:
+		output = result ? "YES" : "NO";
+		break;
+	}
+	
+	OutputFormat("%s", output);
 }

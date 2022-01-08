@@ -77,14 +77,15 @@ void MakeSubmitFile(const char* contestName, const char* questionIndex) {
     // util
     CombineFile(ofs, "Utility\\Utility.h");
     CombineFile(ofs, "Utility\\Utility.cpp");
-    CombineFile(ofs, "Utility\\AtCoderInOut.h");
-    CombineFile(ofs, "Utility\\AtCoderInOut.cpp");
     CombineFile(ofs, "Utility\\InputManager.h");
     CombineFile(ofs, "Utility\\InputManager.cpp");
+    CombineFile(ofs, "Utility\\OutputManager.h");
+    CombineFile(ofs, "Utility\\OutputManager.cpp");
     CombineFile(ofs, "Utility\\MakeSubmitFile.h");
 
     // base
     CombineFile(ofs, "AtCoderQuestionBase.h");
+    CombineFile(ofs, "AtCoderQuestionBase.cpp");
 
     // solver
     std::string solverPath = format("Question\\%s\\Question%s%s.h", contestName, contestName, questionIndex);
