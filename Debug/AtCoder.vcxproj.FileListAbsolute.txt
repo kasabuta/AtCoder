@@ -1,0 +1,2 @@
+C:\Users\kasab\source\repos\AtCoder\Debug\AtCoder.exe
+C:\Users\kasab\source\repos\AtCoder\Debug\AtCoder.pdb

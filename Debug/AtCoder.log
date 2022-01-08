@@ -1,0 +1,7 @@
+﻿  Question198A.cpp
+  main.cpp
+  コードを生成中...
+Question198A.obj : error LNK2019: 未解決の外部シンボル "protected: int __cdecl AtCoderQuestionBase<class Question_198_A::InputStruct,class Question_198_A::OutputStruct>::InputFormat(char const *,...)" (?InputFormat@?$AtCoderQuestionBase@VInputStruct@Question_198_A@@VOutputStruct@2@@@IAAHPBDZZ) が関数 "public: virtual class Question_198_A::InputStruct __thiscall Question_198_A::AtCoderQuestion::Input(void)" (?Input@AtCoderQuestion@Question_198_A@@UAE?AVInputStruct@2@XZ) で参照されました
+main.obj : error LNK2019: 未解決の外部シンボル "public: void __thiscall AtCoderQuestionBase<class Question_198_A::InputStruct,class Question_198_A::OutputStruct>::Answer(void)" (?Answer@?$AtCoderQuestionBase@VInputStruct@Question_198_A@@VOutputStruct@2@@@QAEXXZ) が関数 _main で参照されました
+main.obj : error LNK2019: 未解決の外部シンボル "public: bool __thiscall AtCoderQuestionBase<class Question_198_A::InputStruct,class Question_198_A::OutputStruct>::Check(void)" (?Check@?$AtCoderQuestionBase@VInputStruct@Question_198_A@@VOutputStruct@2@@@QAE_NXZ) が関数 _main で参照されました
+C:\Users\kasab\source\repos\AtCoder\Debug\AtCoder.exe : fatal error LNK1120: 3 件の未解決の外部参照

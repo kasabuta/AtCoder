@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Question">
+      <UniqueIdentifier>{b640b861-4ce1-4c4b-90ee-d15bcafa34fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Question">
+      <UniqueIdentifier>{8787853e-3576-4c8b-a683-7a4b7370049f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Utility">
+      <UniqueIdentifier>{9b7b85e5-3f31-4049-affa-8274ae5bc569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Utility">
+      <UniqueIdentifier>{bfcb4cc9-0033-4141-bb38-10b51d40640a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Question\Typical">
+      <UniqueIdentifier>{eafd0d09-dfb2-4f37-b373-8c99a621f7ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Question\Typical">
+      <UniqueIdentifier>{d5066806-8ab7-461d-abe8-7ff48424041c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Question\b213">
+      <UniqueIdentifier>{2ab01ac9-678e-4a68-bb2a-7c6c6a9c541f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Question\b213">
+      <UniqueIdentifier>{fd6ef41a-8ec5-4f87-8c3b-45d4fc873fc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AtCoderQuestionBase.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\MakeSubmitFIle.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Utility.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\AtCoderInOut.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\InputManager.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical90.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical89.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical88.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical87.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical86.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical85.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical84.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical83.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical82.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical81.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical80.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical79.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical78.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical77.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical76.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical75.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical74.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical73.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical72.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical71.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical70.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical69.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical68.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical67.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical66.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical65.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical64.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical63.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical62.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical61.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical60.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical59.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical58.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical57.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical56.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical55.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical54.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical53.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical52.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical51.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical50.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical1.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical2.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical3.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical4.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical5.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical6.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical7.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical8.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical9.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical10.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical11.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical12.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical13.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical14.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical15.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical17.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical16.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical18.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical19.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical20.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical21.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical22.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical23.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical24.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical25.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical26.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical27.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical49.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical48.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical47.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical46.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical45.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical44.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical43.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical42.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical41.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical40.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical39.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical38.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical37.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical36.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical35.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical28.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical29.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical30.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical31.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical32.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical33.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\Typical\QuestionTypical34.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\b213\Questionb213F.h">
+      <Filter>ヘッダー ファイル\Question\b213</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\b213\Questionb213E.h">
+      <Filter>ヘッダー ファイル\Question\b213</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\b213\Questionb213D.h">
+      <Filter>ヘッダー ファイル\Question\b213</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\b213\Questionb213C.h">
+      <Filter>ヘッダー ファイル\Question\b213</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\b213\Questionb213B.h">
+      <Filter>ヘッダー ファイル\Question\b213</Filter>
+    </ClInclude>
+    <ClInclude Include="Question\b213\Questionb213A.h">
+      <Filter>ヘッダー ファイル\Question\b213</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\OutputManager.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Utility.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\AtCoderInOut.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\InputManager.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical1.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical2.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical3.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical4.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical5.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical6.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical7.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical8.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical9.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical10.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical11.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical12.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical13.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical14.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical15.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical16.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical17.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical18.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical19.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical20.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical21.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical22.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical23.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical24.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical25.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical26.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical27.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical28.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical29.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical30.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical31.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical32.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical33.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical34.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical35.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical36.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical37.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical38.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical39.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical40.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical41.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical42.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical43.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical44.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical45.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical46.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical47.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical48.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical49.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical50.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical51.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical52.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical53.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical54.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical55.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical56.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical57.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical58.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical59.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical60.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical61.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical62.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical63.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical64.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical65.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical66.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical67.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical68.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical69.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical70.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical71.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical72.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical73.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical74.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical75.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical76.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical77.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical78.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical79.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical80.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical81.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical82.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical83.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical84.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical85.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical86.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical87.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical88.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical89.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\Typical\QuestionTypical90.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\b213\Questionb213A.cpp">
+      <Filter>ソース ファイル\Question\b213</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\b213\Questionb213B.cpp">
+      <Filter>ソース ファイル\Question\b213</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\b213\Questionb213C.cpp">
+      <Filter>ソース ファイル\Question\b213</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\b213\Questionb213D.cpp">
+      <Filter>ソース ファイル\Question\b213</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\b213\Questionb213E.cpp">
+      <Filter>ソース ファイル\Question\b213</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\b213\Questionb213F.cpp">
+      <Filter>ソース ファイル\Question\b213</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\OutputManager.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

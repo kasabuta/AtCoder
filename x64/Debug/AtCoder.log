@@ -1,0 +1,121 @@
+﻿  main.cpp
+  Questionb213A.cpp
+C:\Users\kasab\source\repos\AtCoder\Utility\InputManager.h(58,16): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kasab\source\repos\AtCoder\Question\b213\Questionb213A.cpp(34): message : コンパイル対象の関数 テンプレート インスタンス化 'int InputManager::GetInputFormat<int*,int*>(const char *,int *const &,int *const &)' のリファレンスを確認してください
+C:\Users\kasab\source\repos\AtCoder\Utility\InputManager.h(63,15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Questionb213B.cpp
+C:\Users\kasab\source\repos\AtCoder\Utility\InputManager.h(58,16): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kasab\source\repos\AtCoder\Question\b213\Questionb213B.cpp(38): message : コンパイル対象の関数 テンプレート インスタンス化 'int InputManager::GetInputFormat<int*>(const char *,int *const &)' のリファレンスを確認してください
+C:\Users\kasab\source\repos\AtCoder\Utility\InputManager.h(63,15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Questionb213C.cpp
+C:\Users\kasab\source\repos\AtCoder\Utility\InputManager.h(58,16): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kasab\source\repos\AtCoder\Question\b213\Questionb213C.cpp(61): message : コンパイル対象の関数 テンプレート インスタンス化 'int InputManager::GetInputFormat<__int64*,__int64*,int*>(const char *,__int64 *const &,__int64 *const &,int *const &)' のリファレンスを確認してください
+C:\Users\kasab\source\repos\AtCoder\Utility\InputManager.h(63,15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Questionb213D.cpp
+C:\Users\kasab\source\repos\AtCoder\Utility\InputManager.h(58,16): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kasab\source\repos\AtCoder\Question\b213\Questionb213D.cpp(43): message : コンパイル対象の関数 テンプレート インスタンス化 'int InputManager::GetInputFormat<int*>(const char *,int *const &)' のリファレンスを確認してください
+C:\Users\kasab\source\repos\AtCoder\Utility\InputManager.h(63,15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Questionb213E.cpp
+  Questionb213F.cpp
+  QuestionTypical1.cpp
+  QuestionTypical10.cpp
+  QuestionTypical11.cpp
+  QuestionTypical12.cpp
+  QuestionTypical13.cpp
+  QuestionTypical14.cpp
+  QuestionTypical15.cpp
+  QuestionTypical16.cpp
+  QuestionTypical17.cpp
+  QuestionTypical18.cpp
+  QuestionTypical19.cpp
+  QuestionTypical2.cpp
+  QuestionTypical20.cpp
+  コードを生成中...
+  コンパイル中...
+  QuestionTypical21.cpp
+  QuestionTypical22.cpp
+  QuestionTypical23.cpp
+  QuestionTypical24.cpp
+  QuestionTypical25.cpp
+  QuestionTypical26.cpp
+  QuestionTypical27.cpp
+  QuestionTypical28.cpp
+  QuestionTypical29.cpp
+  QuestionTypical3.cpp
+  QuestionTypical30.cpp
+  QuestionTypical31.cpp
+  QuestionTypical32.cpp
+  QuestionTypical33.cpp
+  QuestionTypical34.cpp
+  QuestionTypical35.cpp
+  QuestionTypical36.cpp
+  QuestionTypical37.cpp
+  QuestionTypical38.cpp
+  QuestionTypical39.cpp
+  コードを生成中...
+  コンパイル中...
+  QuestionTypical4.cpp
+  QuestionTypical40.cpp
+  QuestionTypical41.cpp
+  QuestionTypical42.cpp
+  QuestionTypical43.cpp
+  QuestionTypical44.cpp
+  QuestionTypical45.cpp
+  QuestionTypical46.cpp
+  QuestionTypical47.cpp
+  QuestionTypical48.cpp
+  QuestionTypical49.cpp
+  QuestionTypical5.cpp
+  QuestionTypical50.cpp
+  QuestionTypical51.cpp
+  QuestionTypical52.cpp
+  QuestionTypical53.cpp
+  QuestionTypical54.cpp
+  QuestionTypical55.cpp
+  QuestionTypical56.cpp
+  QuestionTypical57.cpp
+  コードを生成中...
+  コンパイル中...
+  QuestionTypical58.cpp
+  QuestionTypical59.cpp
+  QuestionTypical6.cpp
+  QuestionTypical60.cpp
+  QuestionTypical61.cpp
+  QuestionTypical62.cpp
+  QuestionTypical63.cpp
+  QuestionTypical64.cpp
+  QuestionTypical65.cpp
+  QuestionTypical66.cpp
+  QuestionTypical67.cpp
+  QuestionTypical68.cpp
+  QuestionTypical69.cpp
+  QuestionTypical7.cpp
+  QuestionTypical70.cpp
+  QuestionTypical71.cpp
+  QuestionTypical72.cpp
+  QuestionTypical73.cpp
+  QuestionTypical74.cpp
+  QuestionTypical75.cpp
+  コードを生成中...
+  コンパイル中...
+  QuestionTypical76.cpp
+  QuestionTypical77.cpp
+  QuestionTypical78.cpp
+  QuestionTypical79.cpp
+  QuestionTypical8.cpp
+  QuestionTypical80.cpp
+  QuestionTypical81.cpp
+  QuestionTypical82.cpp
+  QuestionTypical83.cpp
+  QuestionTypical84.cpp
+  QuestionTypical85.cpp
+  QuestionTypical86.cpp
+  QuestionTypical87.cpp
+  QuestionTypical88.cpp
+  QuestionTypical89.cpp
+  QuestionTypical9.cpp
+  QuestionTypical90.cpp
+  OutputManager.cpp
+C:\Users\kasab\source\repos\AtCoder\Utility\OutputManager.cpp(16,7): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  コードを生成中...
+  AtCoder.vcxproj -> C:\Users\kasab\source\repos\AtCoder\x64\Debug\AtCoder.exe
