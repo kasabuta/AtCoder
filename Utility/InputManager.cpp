@@ -15,7 +15,7 @@ std::string InputManager::PopInputLine() {
 	return line;
 }
 
-int InputManager::GetInputInt() {
+int InputManager::GetInt() {
 	if (m_isCheckMode) {
 		auto inputCase = PopInputLine();
 		return std::stoi(inputCase);
@@ -26,7 +26,7 @@ int InputManager::GetInputInt() {
 	}
 }
 
-float InputManager::GetInputFloat() {
+float InputManager::GetFloat() {
 	if (m_isCheckMode) {
 		auto inputCase = PopInputLine();
 		return std::stof(inputCase);
@@ -37,7 +37,7 @@ float InputManager::GetInputFloat() {
 	}
 }
 
-double InputManager::GetInputDouble() {
+double InputManager::GetDouble() {
 	if (m_isCheckMode) {
 		auto inputCase = PopInputLine();
 		return std::stod(inputCase);
@@ -48,7 +48,7 @@ double InputManager::GetInputDouble() {
 	}
 }
 
-long long InputManager::GetInputLongLong() {
+long long InputManager::GetLongLong() {
 	if (m_isCheckMode) {
 		auto inputCase = PopInputLine();
 		return std::stoll(inputCase);
@@ -59,13 +59,35 @@ long long InputManager::GetInputLongLong() {
 	}
 }
 
-std::string InputManager::GetInputString() {
+std::string InputManager::GetString() {
 	if (m_isCheckMode) {
 		auto inputCase = PopInputLine();
 		return inputCase;
 	} else {
 		std::string tmp;
-		std::cin >> tmp;
+		do {
+			std::getline(std::cin, tmp);
+		} while (tmp == "");
 		return tmp;
 	}
 }
+std::vector<std::string> InputManager::GetStrings(int num) {
+	std::vector<std::string> out;
+	while (num > 0) {
+		auto line = GetString();
+		auto strings = Split<std::string>(line);
+		std::copy(strings.begin(), strings.end(), std::back_inserter(out));
+		num -= (int)strings.size();
+	}
+	return out;
+}
+
+std::vector<Edge> InputManager::GetPathWeight(int num) {
+	std::vector<Edge> input(num);
+	repeat(i, num) {
+		auto path = GetThreeNums<int>();
+		input[i] = Edge(path.first - 1, path.second - 1, path.third);
+	}
+	return input;
+}
+

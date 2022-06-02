@@ -17,7 +17,7 @@ bool AtCoderQuestionBase::Check() {
 		m_output.Reset();
 		Solver();
 
-		printf("[ Case %d ]\n", i);
+		printf("[ Case %d ]\n", i + 1);
 		printf("------    my output     ------\n");
 
 		m_output.Print();
@@ -29,7 +29,7 @@ bool AtCoderQuestionBase::Check() {
 			checkResult = false;
 			printf("------ test case output ------\n");
 			printf("%s\n", GetOutputCase(i));
-			printf("Case %d is Failed.\n\n", i);
+			printf("Case %d is Failed.\n\n", i + 1);
 		}
 	}
 

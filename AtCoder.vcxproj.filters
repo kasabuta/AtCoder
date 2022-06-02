@@ -25,17 +25,17 @@
     <Filter Include="ソース ファイル\Utility">
       <UniqueIdentifier>{bfcb4cc9-0033-4141-bb38-10b51d40640a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\Question\AtCoderBS">
-      <UniqueIdentifier>{0c52ef6f-59f2-4d2e-985f-9f26bf8e98fa}</UniqueIdentifier>
+    <Filter Include="ソース ファイル\Question\Typical">
+      <UniqueIdentifier>{40ee7942-502b-4a85-9923-08c6e2bfab48}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ヘッダー ファイル\Question\AtCoderBS">
-      <UniqueIdentifier>{18fa38a7-1fec-4551-9e38-2a683359123d}</UniqueIdentifier>
+    <Filter Include="ヘッダー ファイル\Question\Typical">
+      <UniqueIdentifier>{aed51150-6819-48ed-89dd-3fed52fafda3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\Question\b234">
-      <UniqueIdentifier>{0f29c51b-fd3f-4a66-ba30-251a3c102d82}</UniqueIdentifier>
+    <Filter Include="ソース ファイル\Question\r138">
+      <UniqueIdentifier>{81af4b8b-3116-4455-aa81-e12b1cd63ed6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ヘッダー ファイル\Question\b234">
-      <UniqueIdentifier>{f4e8ff8a-12aa-4b17-8c6f-edd4e2688621}</UniqueIdentifier>
+    <Filter Include="ソース ファイル\Question\b251">
+      <UniqueIdentifier>{3f6eb507-ee57-4782-9c67-7b8af60bf472}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -54,62 +54,59 @@
     <ClInclude Include="Utility\OutputManager.h">
       <Filter>ヘッダー ファイル\Utility</Filter>
     </ClInclude>
-    <ClInclude Include="Question\AtCoderBS\QuestionAtCoderBS11.h">
-      <Filter>ヘッダー ファイル\Question\AtCoderBS</Filter>
+    <ClInclude Include="Question\Typical\QuestionTypical36.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
     </ClInclude>
-    <ClInclude Include="Question\AtCoderBS\QuestionAtCoderBS10.h">
-      <Filter>ヘッダー ファイル\Question\AtCoderBS</Filter>
+    <ClInclude Include="Question\Typical\QuestionTypical42.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
     </ClInclude>
-    <ClInclude Include="Question\AtCoderBS\QuestionAtCoderBS9.h">
-      <Filter>ヘッダー ファイル\Question\AtCoderBS</Filter>
+    <ClInclude Include="Question\Typical\QuestionTypical72.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
     </ClInclude>
-    <ClInclude Include="Question\AtCoderBS\QuestionAtCoderBS8.h">
-      <Filter>ヘッダー ファイル\Question\AtCoderBS</Filter>
+    <ClInclude Include="Question\Typical\QuestionTypical56.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
     </ClInclude>
-    <ClInclude Include="Question\AtCoderBS\QuestionAtCoderBS7.h">
-      <Filter>ヘッダー ファイル\Question\AtCoderBS</Filter>
+    <ClInclude Include="Question\Typical\QuestionTypical51.h">
+      <Filter>ヘッダー ファイル\Question\Typical</Filter>
     </ClInclude>
-    <ClInclude Include="Question\AtCoderBS\QuestionAtCoderBS6.h">
-      <Filter>ヘッダー ファイル\Question\AtCoderBS</Filter>
+    <ClInclude Include="Question\r138\Questionr138A.h">
+      <Filter>ソース ファイル\Question\r138</Filter>
     </ClInclude>
-    <ClInclude Include="Question\AtCoderBS\QuestionAtCoderBS5.h">
-      <Filter>ヘッダー ファイル\Question\AtCoderBS</Filter>
+    <ClInclude Include="Question\r138\Questionr138B.h">
+      <Filter>ソース ファイル\Question\r138</Filter>
     </ClInclude>
-    <ClInclude Include="Question\AtCoderBS\QuestionAtCoderBS4.h">
-      <Filter>ヘッダー ファイル\Question\AtCoderBS</Filter>
+    <ClInclude Include="Question\r138\Questionr138C.h">
+      <Filter>ソース ファイル\Question\r138</Filter>
     </ClInclude>
-    <ClInclude Include="Question\AtCoderBS\QuestionAtCoderBS3.h">
-      <Filter>ヘッダー ファイル\Question\AtCoderBS</Filter>
+    <ClInclude Include="Question\r138\Questionr138D.h">
+      <Filter>ソース ファイル\Question\r138</Filter>
     </ClInclude>
-    <ClInclude Include="Question\AtCoderBS\QuestionAtCoderBS2.h">
-      <Filter>ヘッダー ファイル\Question\AtCoderBS</Filter>
+    <ClInclude Include="Question\r138\Questionr138E.h">
+      <Filter>ソース ファイル\Question\r138</Filter>
     </ClInclude>
-    <ClInclude Include="Question\AtCoderBS\QuestionAtCoderBS1.h">
-      <Filter>ヘッダー ファイル\Question\AtCoderBS</Filter>
+    <ClInclude Include="Question\b251\Questionb251A.h">
+      <Filter>ソース ファイル\Question\b251</Filter>
     </ClInclude>
-    <ClInclude Include="Question\b234\Questionb234A.h">
-      <Filter>ヘッダー ファイル\Question\b234</Filter>
+    <ClInclude Include="Question\b251\Questionb251B.h">
+      <Filter>ソース ファイル\Question\b251</Filter>
     </ClInclude>
-    <ClInclude Include="Question\b234\Questionb234B.h">
-      <Filter>ヘッダー ファイル\Question\b234</Filter>
+    <ClInclude Include="Question\b251\Questionb251C.h">
+      <Filter>ソース ファイル\Question\b251</Filter>
     </ClInclude>
-    <ClInclude Include="Question\b234\Questionb234C.h">
-      <Filter>ヘッダー ファイル\Question\b234</Filter>
+    <ClInclude Include="Question\b251\Questionb251D.h">
+      <Filter>ソース ファイル\Question\b251</Filter>
     </ClInclude>
-    <ClInclude Include="Question\b234\Questionb234D.h">
-      <Filter>ヘッダー ファイル\Question\b234</Filter>
+    <ClInclude Include="Question\b251\Questionb251E.h">
+      <Filter>ソース ファイル\Question\b251</Filter>
     </ClInclude>
-    <ClInclude Include="Question\b234\Questionb234E.h">
-      <Filter>ヘッダー ファイル\Question\b234</Filter>
+    <ClInclude Include="Question\b251\Questionb251Ex.h">
+      <Filter>ソース ファイル\Question\b251</Filter>
     </ClInclude>
-    <ClInclude Include="Question\b234\Questionb234Ex.h">
-      <Filter>ヘッダー ファイル\Question\b234</Filter>
+    <ClInclude Include="Question\b251\Questionb251F.h">
+      <Filter>ソース ファイル\Question\b251</Filter>
     </ClInclude>
-    <ClInclude Include="Question\b234\Questionb234F.h">
-      <Filter>ヘッダー ファイル\Question\b234</Filter>
-    </ClInclude>
-    <ClInclude Include="Question\b234\Questionb234G.h">
-      <Filter>ヘッダー ファイル\Question\b234</Filter>
+    <ClInclude Include="Question\b251\Questionb251G.h">
+      <Filter>ソース ファイル\Question\b251</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -125,65 +122,62 @@
     <ClCompile Include="Utility\OutputManager.cpp">
       <Filter>ソース ファイル\Utility</Filter>
     </ClCompile>
-    <ClCompile Include="Question\AtCoderBS\QuestionAtCoderBS1.cpp">
-      <Filter>ソース ファイル\Question\AtCoderBS</Filter>
-    </ClCompile>
-    <ClCompile Include="Question\AtCoderBS\QuestionAtCoderBS2.cpp">
-      <Filter>ソース ファイル\Question\AtCoderBS</Filter>
-    </ClCompile>
-    <ClCompile Include="Question\AtCoderBS\QuestionAtCoderBS3.cpp">
-      <Filter>ソース ファイル\Question\AtCoderBS</Filter>
-    </ClCompile>
-    <ClCompile Include="Question\AtCoderBS\QuestionAtCoderBS4.cpp">
-      <Filter>ソース ファイル\Question\AtCoderBS</Filter>
-    </ClCompile>
-    <ClCompile Include="Question\AtCoderBS\QuestionAtCoderBS5.cpp">
-      <Filter>ソース ファイル\Question\AtCoderBS</Filter>
-    </ClCompile>
-    <ClCompile Include="Question\AtCoderBS\QuestionAtCoderBS6.cpp">
-      <Filter>ソース ファイル\Question\AtCoderBS</Filter>
-    </ClCompile>
-    <ClCompile Include="Question\AtCoderBS\QuestionAtCoderBS7.cpp">
-      <Filter>ソース ファイル\Question\AtCoderBS</Filter>
-    </ClCompile>
-    <ClCompile Include="Question\AtCoderBS\QuestionAtCoderBS8.cpp">
-      <Filter>ソース ファイル\Question\AtCoderBS</Filter>
-    </ClCompile>
-    <ClCompile Include="Question\AtCoderBS\QuestionAtCoderBS9.cpp">
-      <Filter>ソース ファイル\Question\AtCoderBS</Filter>
-    </ClCompile>
-    <ClCompile Include="Question\AtCoderBS\QuestionAtCoderBS10.cpp">
-      <Filter>ソース ファイル\Question\AtCoderBS</Filter>
-    </ClCompile>
-    <ClCompile Include="Question\AtCoderBS\QuestionAtCoderBS11.cpp">
-      <Filter>ソース ファイル\Question\AtCoderBS</Filter>
-    </ClCompile>
     <ClCompile Include="AtCoderQuestionBase.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="Question\b234\Questionb234A.cpp">
-      <Filter>ソース ファイル\Question\b234</Filter>
+    <ClCompile Include="Question\Typical\QuestionTypical36.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
     </ClCompile>
-    <ClCompile Include="Question\b234\Questionb234B.cpp">
-      <Filter>ソース ファイル\Question\b234</Filter>
+    <ClCompile Include="Question\Typical\QuestionTypical42.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
     </ClCompile>
-    <ClCompile Include="Question\b234\Questionb234C.cpp">
-      <Filter>ソース ファイル\Question\b234</Filter>
+    <ClCompile Include="Question\Typical\QuestionTypical72.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
     </ClCompile>
-    <ClCompile Include="Question\b234\Questionb234D.cpp">
-      <Filter>ソース ファイル\Question\b234</Filter>
+    <ClCompile Include="Question\Typical\QuestionTypical56.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
     </ClCompile>
-    <ClCompile Include="Question\b234\Questionb234E.cpp">
-      <Filter>ソース ファイル\Question\b234</Filter>
+    <ClCompile Include="Question\Typical\QuestionTypical51.cpp">
+      <Filter>ソース ファイル\Question\Typical</Filter>
     </ClCompile>
-    <ClCompile Include="Question\b234\Questionb234Ex.cpp">
-      <Filter>ソース ファイル\Question\b234</Filter>
+    <ClCompile Include="Question\r138\Questionr138A.cpp">
+      <Filter>ソース ファイル\Question\r138</Filter>
     </ClCompile>
-    <ClCompile Include="Question\b234\Questionb234F.cpp">
-      <Filter>ソース ファイル\Question\b234</Filter>
+    <ClCompile Include="Question\r138\Questionr138B.cpp">
+      <Filter>ソース ファイル\Question\r138</Filter>
     </ClCompile>
-    <ClCompile Include="Question\b234\Questionb234G.cpp">
-      <Filter>ソース ファイル\Question\b234</Filter>
+    <ClCompile Include="Question\r138\Questionr138C.cpp">
+      <Filter>ソース ファイル\Question\r138</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\r138\Questionr138D.cpp">
+      <Filter>ソース ファイル\Question\r138</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\r138\Questionr138E.cpp">
+      <Filter>ソース ファイル\Question\r138</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\b251\Questionb251A.cpp">
+      <Filter>ソース ファイル\Question\b251</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\b251\Questionb251B.cpp">
+      <Filter>ソース ファイル\Question\b251</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\b251\Questionb251C.cpp">
+      <Filter>ソース ファイル\Question\b251</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\b251\Questionb251D.cpp">
+      <Filter>ソース ファイル\Question\b251</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\b251\Questionb251E.cpp">
+      <Filter>ソース ファイル\Question\b251</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\b251\Questionb251Ex.cpp">
+      <Filter>ソース ファイル\Question\b251</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\b251\Questionb251F.cpp">
+      <Filter>ソース ファイル\Question\b251</Filter>
+    </ClCompile>
+    <ClCompile Include="Question\b251\Questionb251G.cpp">
+      <Filter>ソース ファイル\Question\b251</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

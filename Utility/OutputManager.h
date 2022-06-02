@@ -22,7 +22,7 @@ public:
 	std::string GetOutput() const {
 		auto len = m_outputLine.length();
 		auto result = m_outputLine;
-		if (result[len - 1] == '\n') {
+		if (len != 0 && result[len - 1] == '\n') {
 			result[len - 1] = '\0';
 		}
 		return result;
@@ -31,6 +31,8 @@ public:
 	void Reset();
 
 	void OutputFormat(const char* format, ...);
+
+	void OutputString(const char* str);
 
 	void OutputNum(const int num);
 	void OutputNum(const long long num);
@@ -42,7 +44,17 @@ public:
 	void OutputNums(const std::vector<float>& out);
 	void OutputNums(const std::vector<double>& out);
 
-	void OutputBool(const bool result, BoolOutputType type);
+	void OutputNumsInLine(const std::vector<int>& out);
+	void OutputNumsInLine(const std::vector<long long>& out);
+	void OutputNumsInLine(const std::vector<float>& out);
+	void OutputNumsInLine(const std::vector<double>& out);
+
+	void OutputMatrix(const Matrix<int>& mat);
+	void OutputMatrix(const Matrix<long long>& mat);
+	void OutputMatrix(const Matrix<float>& mat);
+	void OutputMatrix(const Matrix<double>& mat);
+
+	void OutputBool(const bool result, int type);
 
 private:
 	bool m_isCheckMode;

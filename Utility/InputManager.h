@@ -27,36 +27,56 @@ public:
 
 	std::string PopInputLine();
 
-	int GetInputInt();
-	long long GetInputLongLong();
-	float GetInputFloat();
-	double GetInputDouble();
-	std::string GetInputString();
+	int GetInt();
+	long long GetLongLong();
+	float GetFloat();
+	double GetDouble();
+	std::string GetString();
+	std::vector<std::string> GetStrings(int num);
+
+	template <typename T>
+	std::vector<T> GetNumsWithCond(int cond1, int num1, int cond2, int num2);
 
 	template <typename ...Args>
-	int GetInputFormat(const char* format, Args const & ... args);
+	int GetFormat(const char* format, Args const & ... args);
 
 	template <typename T>
-	TwoNums<T> GetInputTwoNums();
+	TwoNums<T> GetTwoNums();
 	template <typename T>
-	std::vector<TwoNums<T>> GetInputTwoNums(int num);
+	std::vector<TwoNums<T>> GetTwoNums(int num);
+	template <typename T>
+	std::vector<TwoNums<T>> GetTwoNumsAsIndex(int num);
 
 	template <typename T>
-	ThreeNums<T> GetInputThreeNums();
+	ThreeNums<T> GetThreeNums();
 	template <typename T>
-	std::vector<ThreeNums<T>> GetInputThreeNums(int num);
+	std::vector<ThreeNums<T>> GetThreeNums(int num);
+
+	std::vector<Edge> GetPathWeight(int num);
 
 	template <typename T>
-	std::vector<T> GetInputNums(int num);
+	std::vector<T> GetNums(int num);
+	template <typename T>
+	std::vector<T> GetNumsAsIndex(int num);
 
+	template <typename T>
+	Matrix<T> GetMatrix(int h, int w);
+	template <typename T>
+	Matrix<T> GetMatrix(TwoNums<int> hw);
 private:
 	bool m_isCheckMode;
 	std::vector<std::string> m_inputLines;
 };
 
+
+template <typename T>
+std::vector<T> InputManager::GetNumsWithCond(int cond1, int num1, int cond2, int num2) {
+	//@todo
+}
+
 /* 解答用の出力とテストケースを使ったチェックを切り替えるための入力関数 */
 template <typename ...Args>
-int InputManager::GetInputFormat(const char* format, Args const & ... args) {
+int InputManager::GetFormat(const char* format, Args const & ... args) {
 	if (m_isCheckMode) {
 		if (!m_inputLines.empty()) {
 			auto inputCase = m_inputLines.front();
@@ -72,7 +92,7 @@ int InputManager::GetInputFormat(const char* format, Args const & ... args) {
 }
 
 template <typename T>
-TwoNums<T> InputManager::GetInputTwoNums() {
+TwoNums<T> InputManager::GetTwoNums() {
 	TwoNums<T> input;
 	if (m_isCheckMode) {
 		auto line = PopInputLine();
@@ -83,19 +103,29 @@ TwoNums<T> InputManager::GetInputTwoNums() {
 	}
 	return input;
 }
-
+// vectorのコピーは遅いので、できればポインタで渡したい
 template <typename T>
-std::vector<TwoNums<T>> InputManager::GetInputTwoNums(int num) {
-	std::vector<TwoNums<T>> input;
+std::vector<TwoNums<T>> InputManager::GetTwoNums(int num) {
+	std::vector<TwoNums<T>> input(num);
 	repeat(i, num) {
-		auto pair = GetInputTwoNums<T>();
-		input.push_back(pair);
+		auto pair = GetTwoNums<T>();
+		input[i] = pair;
 	}
 	return input;
 }
 
 template <typename T>
-ThreeNums<T> InputManager::GetInputThreeNums() {
+std::vector<TwoNums<T>> InputManager::GetTwoNumsAsIndex(int num) {
+	std::vector<TwoNums<T>> input(num);
+	repeat(i, num) {
+		auto pair = GetTwoNums<T>();
+		input[i] = TwoNums<T>(pair.first - 1, pair.second - 1);
+	}
+	return input;
+}
+
+template <typename T>
+ThreeNums<T> InputManager::GetThreeNums() {
 	ThreeNums<T> input;
 	if (m_isCheckMode) {
 		auto line = PopInputLine();
@@ -108,24 +138,24 @@ ThreeNums<T> InputManager::GetInputThreeNums() {
 }
 
 template <typename T>
-std::vector<ThreeNums<T>> InputManager::GetInputThreeNums(int num) {
-	std::vector<ThreeNums<T>> input;
+std::vector<ThreeNums<T>> InputManager::GetThreeNums(int num) {
+	std::vector<ThreeNums<T>> input(num);
 	repeat(i, num) {
-		auto pair = GetInputThreeNums<T>();
-		input.push_back(pair);
+		auto pair = GetThreeNums<T>();
+		input[i] = pair;
 	}
 	return input;
 }
 
 template <typename T>
-std::vector<T> InputManager::GetInputNums(int num) {
+std::vector<T> InputManager::GetNums(int num) {
 	std::vector<T> input;
 	if (m_isCheckMode) {
 		while (num > 0) {
 			auto line = PopInputLine();
 			auto nums = Split<T>(line);
 			std::copy(nums.begin(), nums.end(), std::back_inserter(input));
-			num -= nums.size();
+			num -= (int)nums.size();
 		}
 	} else {
 		repeat(i, num) {
@@ -135,4 +165,26 @@ std::vector<T> InputManager::GetInputNums(int num) {
 		}
 	}
 	return input;
+}
+template <typename T>
+std::vector<T> InputManager::GetNumsAsIndex(int num) {
+	auto nums = GetNums<T>(num);
+	for(auto&& index : nums) {
+		index--;
+	}
+	return nums;
+}
+
+template <typename T>
+Matrix<T> InputManager::GetMatrix(int h, int w) {
+	Matrix<T> mat(h);
+	repeat(i, h) {
+		mat[i] = GetNums<T>(w);
+	}
+	return mat;
+}
+
+template <typename T>
+Matrix<T> InputManager::GetMatrix(TwoNums<int> hw) {
+	return GetMatrix<T>(hw.first, hw.second);
 }

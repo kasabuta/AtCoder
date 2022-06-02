@@ -25,7 +25,7 @@ public :
 private:
 	virtual const char* GetInputCase(uint8_t index) const = 0;
 	virtual const char* GetOutputCase(uint8_t index) const = 0;
-	virtual const int GetNumTestCase() const = 0;
+	virtual int GetNumTestCase() const = 0;
 
 protected:
 	InputManager m_input;
