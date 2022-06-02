@@ -15,6 +15,6 @@ protected:
 private:
 	const char* GetInputCase(uint8_t index) const final override;
 	const char* GetOutputCase(uint8_t index) const final override;
-	const int GetNumTestCase() const final override;
+	int GetNumTestCase() const final override;
 };
 }

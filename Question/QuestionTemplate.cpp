@@ -32,14 +32,14 @@ const char* AtCoderQuestion::GetOutputCase(uint8_t index) const {
 	return "";
 }
 
-const int AtCoderQuestion::GetNumTestCase() const {
+int AtCoderQuestion::GetNumTestCase() const {
 	return SIZEOF(INPUT_CASE);
 }
 
 /* ‰ð–@ */
 void AtCoderQuestion::Solver() {
-	m_input.GetInputInt();
-	m_output.OutputFormat("");
+	m_input.GetInt();
+	m_output.OutputNum(0);
 }
 
 }
